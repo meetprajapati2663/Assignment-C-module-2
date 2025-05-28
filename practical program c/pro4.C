@@ -1,21 +1,18 @@
 #include<stdio.h>
 #include<conio.h>
-
 void main()
 {
 	int a;
 	clrscr();
-	printf("\n Enter Value Of A:");
+	printf("\nENter Value of A:");
 	scanf("%d",&a);
 	if(a%2==0)
 	{
-
-		printf("\n Number is Even ");
+		printf("Even");
 	}
 	else
 	{
-		printf("\n NUmber is Odd ");
-
+		printf("Odd");
 	}
-       getch();
+	getch();
 }
